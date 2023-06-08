@@ -1,0 +1,86 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/valute-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    margin: 50px auto;
+    flex-basis: 700px;
+    padding: 0 25px;
+}
+
+.form__style {
+    background: white;
+    font-size: 22px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 4px 7px 15px rgb(183 179 179);
+}
+
+.form__legend {
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 15px;
+    padding-left: 0;
+}
+
+.form__input {
+    padding: 15px;
+    font-size: 18px;
+}
+
+.form__fieldset { 
+    border: none;
+}
+
+.convet__btn {
+    background: #00A79D;
+    color: white;
+    font-size: 22px;
+    border-radius: 5px;
+    padding: 15px 22px;
+    width: 100%;
+    border: none;
+}
+
+.convet__btn:hover {
+    background: rgb(0 167 157 / 66%);
+    cursor: pointer;
+}
+
+.form__lableText {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 20px 5px 20px 0px;
+    width: 100%;
+    max-width: 250px;;
+}
+
+.result__text {
+    font-size: 25px;
+    background: white;
+    padding: 15px;
+    box-shadow: 4px 7px 15px rgb(183 179 179);
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.form__input {
+    width: 100%;
+}

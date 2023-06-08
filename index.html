@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertor</title>
+    <meta property="og:image" content="imaggies/share.png">
+    <link rel="icon" href="images/icons-64.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,200&display=swap"
+        rel="stylesheet">
+
+    <script defer src="js/scripts.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <form class="form__style js-form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Przelicznik walut</legend>
+                <label>
+                    <span class="form__lableText">Kwota PLN*</span>
+                    <input placeholder="Wpisz kwotę" required step="0.01" type="number" min="1"
+                        class="form__input form__input js-pln">
+                </label>
+                <span class="form__lableText">Waluta</span>
+                <select name="currency" class="js-currency form__input">
+                    <option name="USD" class="js-usd">USD</option>
+                    <option name="EUR" class="js-eur">EUR</option>
+                    <option name="GEL" class="js-gel">GEL</option>
+                </select>
+            </fieldset>
+
+            <p>
+                <button class="convet__btn">Przelicz</button>
+            </p>
+
+        </form>
+
+        <div class="result__text">
+            <p>Wartość: <strong class="js-result">N/A</strong></p>
+        </div>
+    </div>
+</body>
+
+</html>
